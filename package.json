@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index"
   },
-  "keywords": [],
+  "keywords":  [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -15,7 +18,9 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.3.4"
+    
   },
+  
   "engines": {
     "node": "16.15.0"
   }
