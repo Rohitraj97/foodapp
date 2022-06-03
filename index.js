@@ -1,5 +1,5 @@
 const express = require("express");
-// const cors = require("cors");
+ const cors = require("cors");
 const connectDB = require("./configs/db");
 const addtocartcontroller= require("./controllers/addtocart.controllers")
 const foodcontroller= require("./controllers/food.controllers")
@@ -7,9 +7,9 @@ const user= require("./controllers/user.controller")
 const paymentcontroller= require("./controllers/payment.controller")
 const {register,login} = require("./controllers/user.controller")
 const app = express();
-const PORT = 9000;
+
 app.use(express.json());
-// app.use(cors());
+ app.use(cors());
 
  
 // app.post("/register", register); //for creating new user

@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const addtocart= require("../models/addtocart.model")
+// const addtocart= require("../models/addtocart.model")
 // const Product = require("../models/product.model");
 // const Food=require("../models/food.model")
  const payment= require("../models/payment.model")
